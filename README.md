@@ -9,5 +9,16 @@ Route is catkin_ws/src/assignments.
     catkin_ws/src/assignment2_ws
     Turtlebot codes:
       assignment2_ws/turtlesim_cleaner/src
-      1) Move in a circle - This code makes turtlebot sim move in a circle of constant angular velocity and radius of 3
+      1) Move_in_circle - This code makes turtlebot sim move in a circle of constant angular velocity and radius of 3
+              https://github.com/dhruvkm2402/AuE8230Sp22_DhruvMehta/blob/main/catkin_ws/src/assignment2_ws/Screenshots/Circle.png
+              
+      2) square_openLoop - This code makes the bot move in a square based on length, speed and angular velocity  
+          https://github.com/dhruvkm2402/AuE8230Sp22_DhruvMehta/blob/main/catkin_ws/src/assignment2_ws/Screenshots/squareopenloop.png
           
+      3) GotoGoal - This code make the bot move in a square with proportional control and predefined coordinates as goals.
+          https://github.com/dhruvkm2402/AuE8230Sp22_DhruvMehta/blob/main/catkin_ws/src/assignment2_ws/Screenshots/squareopenloop.png
+          
+      To run these files:
+      first: roscore
+      In new terminal: rosrun turtlesim turtlesim_node
+      In new terminal: rosrun turtlesim_clenaer example.py
